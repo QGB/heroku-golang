@@ -6,12 +6,12 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/", hello)
+	http.HandleFunc("/", helloWorld)
 	if err := http.ListenAndServe(":"+"8083", nil); err != nil {
 		panic(err)
 	}
 }
 
-func hello(w http.ResponseWriter, r *http.Request) {
+func helloWorld(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "<h1>Hello Full Cycle Developers</h1>")
 }
