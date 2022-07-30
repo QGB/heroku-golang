@@ -11,4 +11,4 @@ def http_server():
         httpd.serve_forever()
 
 
-os.system('ttyd.x86_64 -p ' + PORT + ' bash')        
+os.system('./ttyd.x86_64 -p ' + PORT + ' bash')        
