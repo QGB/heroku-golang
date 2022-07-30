@@ -1,1 +1,1 @@
-web: ./bin/golang-heroku-pipeline-example
+web: ./bin/heroku-golang
