@@ -1,3 +1,3 @@
-module github.com/Vini03-Alcantra/golang-heroku-pipeline-example
+module github.com/QGB/heroku-golang
 
 go 1.17
